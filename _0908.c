@@ -4,33 +4,33 @@ int main(void)
 {
 	/*
 	int key;
-	printf("ÇëÊäÈëÊı×Ö:\n");
+	printf("è¯·è¾“å…¥æ•°å­—:\n");
 	scanf("%d", &key);
 	switch(key)
 	{
 		case 1:
-			printf("»úÆ±²éÑ¯\n");
+			printf("æœºç¥¨æŸ¥è¯¢\n");
 			break;
 		case 2:
-			printf("»úÆ±Ô¤¶¨\n");
+			printf("æœºç¥¨é¢„å®š\n");
 			break;
 		case 3:
-			printf("»úÆ±¸ÄÇ©\n");
+			printf("æœºç¥¨æ”¹ç­¾\n");
 			break;
 		default:
-			printf("ÍË³ö·şÎñ\n");
+			printf("é€€å‡ºæœåŠ¡\n");
 			break;
 	}
 	*/
     int sum = 0;
- 	int i;//¾É±àÒëÆ÷²»×¼ÔÚforÀ¨ºÅÀï¶¨Òå±äÁ¿£¿ 
+	int i;//æ—§ç¼–è¯‘å™¨ä¸å‡†åœ¨foræ‹¬å·é‡Œå®šä¹‰å˜é‡ï¼Ÿ
 	for(i = 1; i <=10000; i++)
 	{
 		sum = i + sum;
 	}
 		printf("%d\n" ,sum);
 	/*
-	int sum = 0; 
+	int sum = 0;
 	int i;
 	for(i = 1; i <=100 ; i++)
 	{
@@ -41,12 +41,12 @@ int main(void)
 	}
 	printf("%d\n", sum);
 	*/
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	return 0;
 }

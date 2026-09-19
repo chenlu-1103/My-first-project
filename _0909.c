@@ -5,10 +5,10 @@ int main(void)
 	int num1;
 	int num2;
 	int c = 0;
-	
-	printf("ÇëÊäÈëÁ½¸öÕûÊı:\n");
+
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°:\n");
 	scanf("%d %d" ,&num1 ,&num2);
-	
+
 	int min = num1<num2 ? num1:num2;
 	int max = num1>num2 ? num1:num2;
 	for( min ;min <= max; min++)
@@ -17,10 +17,10 @@ int main(void)
 		{
 		    c++;
 		}
-			
-		    
+
+
 	}
 	printf("%d\n" ,c);
-	
+
 	return 0;
- } 
+ }

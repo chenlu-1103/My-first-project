@@ -9,7 +9,7 @@ int main(void)
 		printf("%d\n" ,a);
 	}
 	*/
-	
+
 /*	while(a<=100)
 	{
 		printf("%d\n" ,a);
@@ -17,29 +17,29 @@ int main(void)
 	}
 */
 
-//ÌâÄ¿Ò»
-   /*´ğ°¸²»ºÃ 
+//é¢˜ç›®ä¸€
+   /*ç­”æ¡ˆä¸å¥½
     int num;
-    printf("ÇëÊäÈëÒ»¸öÕûÊı:\n");
+    printf("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°:\n");
     scanf("%d" , &num);
     if(num%2==0)
     {
-    	printf("yes\n");
+	printf("yes\n");
 	}
 	else
 	{
 		printf("no\n");
-	 } 
+	 }
 	*/
 	/*
 	int n;
-	printf("ÇëÊäÈëÕûÊı:\n"); 
-	scanf("%d" ,&n); 
-    
+	printf("è¯·è¾“å…¥æ•´æ•°:\n");
+	scanf("%d" ,&n);
+
     while(n>1 && n%2==0)
     {
-    	n = n / 2;
-    	
+	n = n / 2;
+
 	}
 	if(n==1)
 	{
@@ -50,8 +50,8 @@ int main(void)
 		printf("no");
 	}
 	*/
-	//ÌâÄ¿¶ş£¬ÕÛÖ½´ÎÊıÎÊÌâ 
-	
+	//é¢˜ç›®äºŒï¼ŒæŠ˜çº¸æ¬¡æ•°é—®é¢˜
+
 	/*
 	int count=0;
 	long int high=8844430;
@@ -61,21 +61,21 @@ int main(void)
 		a = a*2;
 		count++;
 	}
-	printf("ĞèÒªÕÛ%d´Î" , count);
+	printf("éœ€è¦æŠ˜%dæ¬¡" , count);
 	*/
-	//ÌâÄ¿Èı
+	//é¢˜ç›®ä¸‰
 	int number = 123;
 	int rev = 0;
-	
+
 	while(number !=0)
 	{
 		int temp = number%10;
 		number = number/10;
 		rev = rev*10+temp;
 	}
-	//Õâ¸öÑ­»·ÓĞµãÄÑÀí½â £¬²»¹ı»¹ºÃ 
+	//è¿™ä¸ªå¾ªç¯æœ‰ç‚¹éš¾ç†è§£ ï¼Œä¸è¿‡è¿˜å¥½
 	printf("%d\n", rev);
-	 
+
 
 
 	return 0;
